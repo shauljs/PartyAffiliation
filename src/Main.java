@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Declarations
         String politicalParty = "";
 
@@ -16,13 +17,20 @@ public class Main {
         //Accept input from user
         politicalParty = in.next();
 
-        if (politicalParty.equals("R")) {
+        if (politicalParty.equals("R"))
+        {
             System.out.println("You get a Republican Elephant.");
-        } else if (politicalParty.equals("D")) {
+        }
+        else if (politicalParty.equals("D"))
+        {
             System.out.println("You get a Democratic Donkey.");
-        } else if (politicalParty.equals("I")) {
+        }
+        else if (politicalParty.equals("I"))
+        {
             System.out.println("You get an Independent Man.");
-        } else {
+        }
+        else
+        {
             System.out.println("You get Other: " + politicalParty + ".");
         }
     }
